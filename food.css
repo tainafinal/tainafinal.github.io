@@ -1,0 +1,79 @@
+/* Try to make this a div if possible */
+body.home {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.webtitle {
+  color: #f5f3da;
+  font-family: 'Brush Script MT', cursive;
+  text-shadow: 4px 4px black;
+  font-size: 140px;
+  position: absolute;
+  margin-top: 10px;
+  left: 50px;
+}
+
+div.nav {
+  position: absolute;
+  height: 85%;
+  position: absolute;
+  left: 20px;
+  top: 180px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 10px 50px 16px;
+    text-decoration: none;
+    color: #f5f3da;
+    font-family: 'Chalkduster', fantasy;
+    text-shadow: 2px 2px white;
+      font-size: 40px;
+}
+
+li a:hover.hov {
+    color: black;
+}
+
+.desc {
+  background-color: white;
+  position: absolute;
+  height: 80%;
+  width: 65%;
+  left: 400px;
+  top: 180px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+
+p.about {
+  color: black;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  padding: 10px 10px 10px 10px
+}
+
+img {
+  position: absolute;
+  max-width: 50%;
+  height: auto;
+  left: 250px;
+  top: 50px;
+}
+
+iframe {
+  position: absolute;
+  max-width: 50%;
+  left: 250px;
+  top: 240px;
+}
